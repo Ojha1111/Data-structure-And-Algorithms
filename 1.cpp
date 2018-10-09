@@ -5,12 +5,13 @@
 int main ()
 {
   pid_t child_pid;
-
   child_pid = fork ();
-  if (child_pid > 0) {
+  if (child_pid > 0)
+  {
     sleep (60);
   }
-  else {
+  else
+ {
     exit (0);
   }
   return 0;
