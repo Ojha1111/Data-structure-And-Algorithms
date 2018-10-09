@@ -20,6 +20,5 @@ int main()
     	default:
     		printf("/n I am parent having id %d \n",getpid());
     		printf("/n My child having id %d \n",p);
-    		
-	}
+    		}
 }
