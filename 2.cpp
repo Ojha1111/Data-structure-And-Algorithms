@@ -23,6 +23,5 @@ main()
         printf("Parent has started: %d\n",getpid());
         printf("Parent of the parent proc : %d\n",getppid());
     }
-
-    printf("After fork()");
+       printf("After fork()");
 }
