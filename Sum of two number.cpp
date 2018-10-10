@@ -4,7 +4,7 @@ int main()
 {
 	int a=0,b=0,c;
 	c=a+b;
-	printf("debanjan",c);
+	printf("OJHA",c);
 	return(0);
 	getch();
 }
